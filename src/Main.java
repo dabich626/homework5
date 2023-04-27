@@ -85,7 +85,7 @@ public class Main {
             System.out.println("установите облегченную версию операционной системы");
         }
         else {
-            System.out.println("установить новейшую версию");
+            System.out.println("установить новейшую версию.");
         }
         }
     
