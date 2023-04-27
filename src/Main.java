@@ -54,7 +54,16 @@ public class Main {
 
 
     private static void task3() {
-        int year = 2021;
+        int year = 2020;
+        if (year %100==0 && year %400==0) {
+            System.out.println("год високосный");
+        } else if (year %4==0 && year %100 > 0) {
+            System.out.println("год високосный");}
+        else if (year % 100 == 0) {
+            System.out.println("год не високосный");}
+        else {
+            System.out.println("год не високосный");
+        }
 
 
 
